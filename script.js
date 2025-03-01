@@ -3,9 +3,9 @@ funtion login()
   
   let a = username.value
   let b = password.value
-  if (a =="abc" and b =="123")
+  if (a =="abc" && b =="123")
   {
-    window.open"Home.html"
+    window.open("Home.html");
     document.getElementById(compiler).style.display="block";
   }
   else
