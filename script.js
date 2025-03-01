@@ -1,4 +1,4 @@
-funtion login()
+function login()
 {
   
   let a = username.value
