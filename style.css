@@ -2,3 +2,13 @@ html {
   height: 100%;
   width: 100%;
 }
+h3
+{
+  font-size: 200%;
+  text-align: center;
+}
+p
+{
+  font-size: 150%;
+  text-align: center;
+}
