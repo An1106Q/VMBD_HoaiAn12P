@@ -6,12 +6,12 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
   <body>
-    <form>
+    <form onsubmit="login(); return false;">
       <label> Tên đăng nhập </label> 
-      <input type="text" id="username" name="username" placeholder="Nhập tên">
+      <input type="text" id="username" name="username" placeholder="Nhập tên"> <br>
       <label> Mật khẩu </label> 
       <input type="password" id="password" name="password"placeholder="Nhập mật khẩu"> <br>
-      <button type="submit" onclick=login() id="ok" name="ok"> Đăng nhập </button>
+      <button type="submit" id="ok" name="ok"> Đăng nhập </button>
     </form>
     <script src="script.js">  </script>
   </body>
