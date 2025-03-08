@@ -21,7 +21,7 @@ h3
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  background-image: ../Images/login.jpeg;
+  background-image: login.jpeg;
 }
 form {
   box-sizing:border-box;
